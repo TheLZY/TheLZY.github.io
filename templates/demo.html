@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=1900">
+  <title>看板娘Demo</title>
+   <link rel="stylesheet" href="/static/css/live2d.css" />
+</head>
+<body>
+  <h3 class="h3-heading dark">Web Design & Support</h3>
+  <!-- Canvas -->
+  <div id="landlord">
+    <div class="message" style="opacity:0"></div>
+    <canvas id="live2d" width="280" height="250" class="live2d"></canvas>
+    <div class="hide-button">隐藏</div>
+</div>
+
+
+<!-- Live2DCubismCore script -->
+<script src = "/static/js/live2d/live2dcubismcore.min.js"></script>
+<!-- Build script -->
+<script src = "/static/js/live2d/live2d.js"></script>
+<script type="text/javascript" src="https://cdn.bootcss.com/jquery/2.2.4/jquery.min.js"></script>
+<script type="text/javascript">
+ //这个路径是message.json的存在目录
+   var message_Path = '/static/'
+ //Model的存在目录
+   var resourcesPath = '/static/Resources/'
+</script>
+<script type="text/javascript" src="/static/js/live2d/message.js"></script>
+</body>
+</html>
